@@ -4,13 +4,6 @@ img {
     height:  auto;
 }
 
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 700 */
-
-
-
-
-
 
 #container {
     min-width: 360px;
@@ -33,6 +26,7 @@ img {
     padding: 0px;
     justify-content: center;
     font-family: "Kantumruy Pro";
+    font-size: 22px;
 }
 
 .hero li{
@@ -57,11 +51,14 @@ img {
 
   .hero h2{
     font-weight: 400;
+    font-size: 32px;
   }
+
 .hero-text{
     font-family: "Edu SA Beginner";
     font-weight: 600;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
+    font-size: 42px;
    }
 
 .picture{
@@ -75,6 +72,7 @@ img {
 
 .info-section{
     text-align: center;
+    font-size: 22px;
 }
 
 .info-section h2{
