@@ -1,0 +1,120 @@
+/* GLOBAL*/
+img {
+    width: 100%;
+    height:  auto;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+
+
+
+
+
+#container {
+    min-width: 360px;
+    max-width: 640px;
+    border: 2px solid black;
+    border-radius: 12px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(171, 194, 238);
+}
+ 
+.hero ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -1rem;
+    margin-bottom: 0px;
+    border: black;
+    padding: 0px;
+    justify-content: center;
+    font-family: "Kantumruy Pro";
+}
+
+.hero li{
+    padding-right: 1rem;
+    justify-content: center;
+    border: black;
+    border-width: 5px;
+    list-style-type: none;
+}
+.hero li:not(:first-child):before {
+    content: " | ";
+    margin-right: 1rem;
+}
+
+
+
+.hero{
+    text-align: center;
+    font-size: large;
+    font-family: "Kantumruy Pro";
+  }
+
+  .hero h2{
+    font-weight: 400;
+  }
+.hero-text{
+    font-family: "Edu SA Beginner";
+    font-weight: 600;
+    margin-bottom: 2rem
+   }
+
+.picture{
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+
+.info-section{
+    text-align: center;
+}
+
+.info-section h2{
+    font-family: "Edu SA Beginner";
+}
+
+.info-section p{
+    margin-top: -12px;
+    margin-bottom: 3rem;    
+    margin-left: 6%;
+    margin-right: 6%;
+    font-family: "Kantumruy Pro";
+}
+
+
+.divider{
+    height: 12px;
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #004770;
+    border-width: 0;
+    border-radius: 16px;
+}
+
+.divider-bottom{
+    height: 12px;
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #004770;
+    border-width: 0;
+    border-radius: 16px;
+}
+
+
+.footer{
+    background-color: darkblue;
+    color: white;
+    margin-top: -12px;
+    height: 32px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+ }
