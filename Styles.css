@@ -1,47 +1,219 @@
-/* GLOBAL*/
-img {
-    width: 100%;
-    height:  auto;
+/* MEDIA QUERIES */
+@media (min-width: 360px) and (max-width:1023px){
+    #container {
+        min-width: 360px;
+        max-width: 1024px;
+        border: 2px solid black;
+        border-radius: 12px;
+        height: auto;
+        margin: 0 auto;
+        background-color: rgb(171, 194, 238);
+    }
+    img {
+        width: 100%;
+        height:  auto;
+    }
+    .caption{
+        display: none;
+    }
+    .info-section{
+        text-align: center;
+        font-size: 32px;
+    }
+    .resume-box{
+        display: none
+    }
+    .hero-text{
+        font-family: "Edu SA Beginner";
+        font-weight: 600;
+        margin-bottom: 2rem;
+        font-size: 42px;
+        margin-top: 0;
+       }
+    .hero ul{
+        list-style-type: none;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -1rem;
+        margin-bottom: 0px;
+        border: black;
+        padding: 0px;
+        justify-content: center;
+        font-family: "Kantumruy Pro";
+        font-size: 22px;
+    }
+    
+    .hero li{
+        padding-right: 1rem;
+        justify-content: center;
+        border: black;
+        border-width: 5px;
+        list-style-type: none;
+    }
+    .hero li:not(:first-child):before {
+        content: " | ";
+        margin-right: 1rem;
+    }
+
 }
 
+@media  (min-width: 1024px)  {
+    #container {
+        background-color: rgb(91, 195, 243);
+        max-width: 1920px;
+    }
+    .hero-text{
+        font-family: "Edu SA Beginner";
+        font-weight: 600;
+        margin-bottom: 2rem;
+        font-size: 64px;
+        margin-top: 0;
+       }
+       .hero ul{
+        list-style-type: none;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: -1rem;
+        margin-bottom: 0px;
+        border: black;
+        padding: 0px;
+        justify-content: center;
+        font-family: "Kantumruy Pro";
+        font-size: 32px;
+    }
+    .hero-menu a{
+        Color: white;
+        text-decoration: none;
+    }
+    .hero-menu a:hover{
+        Color: blue;
+        text-decoration: none;
+    }
+    .hero-menu a:active{
+        Color: darkblue;
+        text-decoration: none;
+    }
 
-#container {
-    min-width: 360px;
-    max-width: 640px;
-    border: 2px solid black;
-    border-radius: 12px;
-    height: auto;
-    margin: 0 auto;
-    background-color: rgb(171, 194, 238);
-}
- 
-.hero ul{
-    list-style-type: none;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: -1rem;
-    margin-bottom: 0px;
-    border: black;
-    padding: 0px;
-    justify-content: center;
-    font-family: "Kantumruy Pro";
-    font-size: 22px;
+    .hero li{
+        padding-right: 1rem;
+        justify-content: center;
+        border: black;
+        border-width: 5px;
+        list-style-type: none;
+    }
+    .hero li:not(:first-child):before {
+        content: " | ";
+        margin-right: 1rem;
+    }
+
+    img {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        min-height: 5rem;
+        width: 25%;
+        height:  25%;
+    }
+    .picture{
+        justify-content: center;
+        display: flex;
+        max-height:25% ;
+    }
+    .background-box{
+        height:110%;
+        background-color: rgba(52, 78, 221, 0.555);
+        margin-left: 3%;
+        margin-right: 3%;
+        border-radius: 16px;
+    }
+    .caption {
+        font-size: 32px;
+        width: 33%;
+        background-color: rgb(89, 175, 233);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        border-radius: 16px;
+    }
+    
+    .caption p{
+        font-family: "Kantumruy Pro";
+    }
+    .caption h2{
+        margin: 0;
+        font-family: "Edu SA Beginner"
+    }
+    .resume-box{
+        font-size:32px;
+        background-color: rgb(89, 175, 233);
+        width: 33%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 16px;
+    }
+    .resume-box a{
+        font-family: "Kantumruy Pro";
+    }
+    .resume-box a:link{
+        Color: white;
+        text-decoration: none;
+    }
+    .resume-box a:hover{
+        color: blue;
+    }
+    
+    .resume-box a:visited{
+        color: white;
+    }
+    .resume-box a:active{
+        color:darkblue;
+    }
+
+
+    .resume-box h2{
+        margin: 0;
+        font-family: "Edu SA Beginner"
+    }
+    #About2{
+        display: none;
+    }
+    #About-text{
+        display: none;
+    }
+    #Skills{
+        display: none;
+
+    }
+    #skills-text{
+        display: none;
+    }
+    .SkillsList{
+        display: flex;
+    }
+    .SkillsBox ul{
+        width: auto;
+        margin-left: 5%;
+        margin-right: 6rem auto;
+        font-family: "Kantumruy Pro";
+    }
+    .SkillsBox ul li{   
+        text-align: left;
+    }
+
 }
 
-.hero li{
-    padding-right: 1rem;
-    justify-content: center;
-    border: black;
-    border-width: 5px;
-    list-style-type: none;
+.info-section a:link{
+    Color: white;
+    text-decoration: none;
 }
-.hero li:not(:first-child):before {
-    content: " | ";
-    margin-right: 1rem;
+.info-section a:hover{
+    color: blue;
 }
-
-
+.info-section a:active{
+    color:darkblue;
+}
 
 .hero{
     text-align: center;
@@ -49,17 +221,10 @@ img {
     font-family: "Kantumruy Pro";
   }
 
-  .hero h2{
+.hero h2{
     font-weight: 400;
     font-size: 32px;
-  }
-
-.hero-text{
-    font-family: "Edu SA Beginner";
-    font-weight: 600;
-    margin-bottom: 2rem;
-    font-size: 42px;
-   }
+}
 
 .picture{
     text-align: center;
@@ -85,6 +250,7 @@ img {
     margin-left: 6%;
     margin-right: 6%;
     font-family: "Kantumruy Pro";
+    word-break: break-word;
 }
 
 
